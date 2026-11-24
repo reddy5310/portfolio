@@ -5,3 +5,5 @@
 # Local design-tool memory
 .hallmark/
 .impeccable/
+.local/
+.local/
