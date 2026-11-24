@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Résumé — Medapati N V D Satyanarayana Reddy</title>
+<meta name="description" content="Résumé of Medapati N V D Satyanarayana Reddy, Senior Manager — DevOps, Cloud &amp; AI Platform Engineering, Hyderabad, India.">
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/tokens.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { overflow-x: clip; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--color-paper-2);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 10.5pt;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--color-accent-strong); text-decoration: none; overflow-wrap: anywhere; }
+  a:hover { text-decoration: underline; }
+  a:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; border-radius: 2px; }
+
+  /* Screen-only top bar */
+  .bar {
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: var(--space-md) var(--space-md) var(--space-sm);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+    font-size: var(--text-sm);
+  }
+  .bar a { font-weight: 500; }
+  .bar .btn {
+    background: var(--color-accent);
+    color: var(--color-accent-ink);
+    padding: var(--space-xs) var(--space-md);
+    border-radius: var(--radius-sm);
+  }
+  .bar .btn:hover { background: var(--color-accent-strong); text-decoration: none; }
+
+  /* The sheet */
+  .sheet {
+    max-width: 210mm;
+    margin: 0 auto var(--space-xl);
+    background: var(--color-paper);
+    box-shadow: 0 1px 2px var(--color-shadow), 0 8px 28px var(--color-shadow);
+    padding: 16mm 15mm 14mm;
+  }
+  @media (max-width: 640px) {
+    .sheet { margin-bottom: 0; padding: var(--space-lg) var(--space-md) var(--space-xl); box-shadow: none; }
+  }
+
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; margin: 0; color: var(--color-ink); }
+  h1 {
+    font-size: 21pt;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    padding-bottom: var(--space-2xs);
+    border-bottom: 3px solid var(--color-accent);
+  }
+  .title { margin: var(--space-xs) 0 0; font-family: var(--font-display); font-weight: 500; font-size: 12pt; color: var(--color-ink-2); }
+  .contact { margin: var(--space-xs) 0 0; font-size: 9.5pt; color: var(--color-ink-2); }
+  .contact span { white-space: nowrap; }
+  .contact span + span::before { content: "·"; margin: 0 0.5em; color: var(--color-muted); }
+
+  h2 {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    margin: var(--space-lg) 0 var(--space-xs);
+    padding-bottom: var(--space-2xs);
+    border-bottom: var(--rule-hair) solid var(--color-rule);
+    break-after: avoid;
+  }
+  p { margin: 0; }
+  ul { margin: var(--space-2xs) 0 0; padding-left: 1.15em; }
+  li { margin: 0 0 var(--space-3xs); padding-left: 0.1em; break-inside: avoid; }
+  li::marker { color: var(--color-muted); }
+
+  .role { margin-top: var(--space-sm); }
+  .role:first-of-type { margin-top: 0; }
+  .role-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: var(--space-2xs) var(--space-md);
+    flex-wrap: wrap;
+    break-inside: avoid;
+    break-after: avoid;
+  }
+  h3 { font-size: 10.5pt; line-height: 1.3; flex: 1 1 18rem; }
+  h3 .org { font-family: var(--font-body); font-weight: 500; color: var(--color-ink-2); }
+  .dates { font-size: 9.5pt; color: var(--color-muted); white-space: nowrap; }
+  .proj { margin-top: var(--space-3xs); font-size: 9.5pt; color: var(--color-muted); break-after: avoid; }
+  .proj strong { font-weight: 600; color: var(--color-ink-2); }
+  .role ul { break-before: avoid; }
+
+  .projects, .certs { list-style: none; padding-left: 0; }
+  .projects li, .certs li { margin-bottom: var(--space-2xs); padding-left: 0; }
+  .projects strong { font-weight: 600; }
+  .certs li { display: flex; justify-content: space-between; gap: var(--space-md); }
+  .certs .when { color: var(--color-muted); white-space: nowrap; font-size: 9.5pt; }
+
+  .skills { margin: 0; }
+  .skills > div { display: grid; grid-template-columns: 11.5rem 1fr; gap: var(--space-xs); margin-bottom: var(--space-2xs); break-inside: avoid; }
+  .skills dt { font-weight: 600; color: var(--color-ink); }
+  .skills dd { margin: 0; color: var(--color-ink-2); }
+  @media (max-width: 640px) {
+    .skills > div { grid-template-columns: 1fr; gap: 0; margin-bottom: var(--space-sm); }
+    .certs li { flex-direction: column; gap: 0; }
+    .dates { white-space: normal; }
+  }
+
+  @page { size: A4; margin: 13mm 14mm; }
+  @media print {
+    html, body { background: var(--color-paper); }
+    body { font-size: 9.5pt; line-height: 1.34; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .bar { display: none; }
+    .sheet { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+    .skills > div { grid-template-columns: 11.5rem 1fr; }
+    .certs li { flex-direction: row; }
+    a { color: var(--color-ink); }
+    h2 { margin-top: var(--space-md); }
+    li, .projects li, .certs li { margin-bottom: 0; }
+    .projects li { margin-bottom: var(--space-3xs); }
+    .skills > div { margin-bottom: var(--space-3xs); }
+    .role { margin-top: var(--space-xs); }
+    h1 { font-size: 20pt; }
+  }
+</style>
+</head>
+<body>
+<nav class="bar" aria-label="Résumé actions">
+  <a href="./">← Back to portfolio</a>
+  <a class="btn" href="assets/Satyanarayana-Reddy-Resume.pdf" download>Download PDF</a>
+</nav>
+
+<main class="sheet">
+  <header>
+    <h1>Medapati N V D Satyanarayana Reddy</h1>
+    <p class="title">Senior Manager — DevOps, Cloud &amp; AI Platform Engineering</p>
+    <p class="contact">
+      <span>Hyderabad, India</span>
+      <span><a href="mailto:mnvdsreddy93@gmail.com">mnvdsreddy93@gmail.com</a></span>
+      <span><a href="tel:+918074338466">+91 80743 38466</a></span>
+      <span><a href="https://www.linkedin.com/in/medapati-n-v-d-satyanarayana-reddy-498758271/">LinkedIn</a></span>
+      <span><a href="https://github.com/reddy5310">github.com/reddy5310</a></span>
+      <span><a href="https://reddy5310.github.io/portfolio/">reddy5310.github.io/portfolio</a></span>
+    </p>
+  </header>
+
+  <section aria-labelledby="h-summary">
+    <h2 id="h-summary">Summary</h2>
+    <p>Senior Manager with 9+ years of experience leading enterprise cloud transformation, platform engineering, DevSecOps, Site Reliability Engineering, FinOps and AI-driven modernization across AWS, GCP, Azure and hybrid environments. Architected a GenAI platform serving 400+ users and drove modernization across 545+ enterprise applications, including AI-assisted Java 8/11 to Java 21/25 upgrades. Hands-on across Terraform, Kubernetes, CI/CD, observability and agentic AI, with a record of leading cross-functional teams and setting engineering standards for secure, highly available, cost-efficient platforms. AWS, Google Cloud and Microsoft Azure certified.</p>
+  </section>
+
+  <section aria-labelledby="h-exp">
+    <h2 id="h-exp">Experience</h2>
+
+    <article class="role">
+      <div class="role-head">
+        <h3>Senior Manager, DevOps / AI Platform Engineering <span class="org">— MSD Hyderabad Global Capabilities Center</span></h3>
+        <span class="dates">Oct 2025 – Present</span>
+      </div>
+      <ul>
+        <li>Architected and scaled a cloud-native GenAI platform for 400+ users and 40 concurrent sessions on AWS Lambda, ECS Fargate, API Gateway, OpenSearch, Aurora PostgreSQL, DynamoDB, EventBridge, SNS/SQS, Terraform and GitHub Actions, creating a reusable AI service foundation for engineering, testing, architecture, database and operations.</li>
+        <li>Led enterprise Agentic AI platforms using GitHub Copilot, Strands Agents SDK, Semantic Kernel, FastAPI, MCP, AWS Bedrock, Claude and GPT models, enabling secure tool orchestration, human-in-the-loop approvals, workflow automation and AI governance.</li>
+        <li>Directed AI-powered modernization of 545+ enterprise applications with SISU, Python, GitHub, Terraform, GitHub Actions and LLM-assisted analysis, accelerating discovery, runtime modernization, technology classification and cloud migration planning.</li>
+        <li>Built a Java Runtime Modernization Factory combining AI-generated code remediation, dependency modernization, deployment automation, validation pipelines and stakeholder acceptance testing, taking 14 of 25 targeted applications (56%) through Java 25 upgrade validation and reducing unsupported-runtime risk.</li>
+        <li>Led AI-driven upgrades of legacy Java 8/11 applications to Java 21/25 with SISU AI, automating deployments to VMware Tanzu Application Service through GitHub Actions and resolving JDK compatibility, CAROL/JOTM transaction frameworks, Apache Tomcat integration, secrets management and routing issues, with automated validation and production-readiness checks.</li>
+        <li>Engineered enterprise Retrieval-Augmented Generation platforms with AWS Glue, OpenSearch, PostgreSQL pgvector, embeddings, Confluence, SharePoint and DynamoDB, improving discoverability of engineering standards, architecture knowledge and operational procedures.</li>
+        <li>Designed AI-powered Infrastructure-as-Code that turns natural-language requirements and architecture diagrams into Terraform using GPT-4o Vision, vector search, approved module catalogs, HCL parsing and governance controls, reducing manual design effort and standardizing deployments.</li>
+        <li>Built IaC governance and validation platforms with Terraform, Checkov, GitHub Actions, HCL parsers and Dynatrace, enforcing ownership standards, policy compliance, secrets detection and drift validation at scale.</li>
+        <li>Defined modernization governance and Golden Pattern standards across VMware Tanzu, Kubernetes, Amazon EKS, ECS, Lambda, Azure ASE, serverless and managed PaaS, enabling consistent cloud adoption decisions and lowering architectural risk across hundreds of applications.</li>
+        <li>Built reusable Terraform modules for VPC, IAM, ECS, EKS, EC2, Lambda, S3, load balancers, Auto Scaling and observability, standardizing deployment patterns and accelerating cloud adoption.</li>
+        <li>Implemented DevSecOps and platform-engineering practices with GitHub Actions, Terraform, Checkov, Dynatrace, SonarQube and policy-as-code, improving deployment governance, compliance validation and delivery maturity.</li>
+        <li>Established SRE practices with Dynatrace, Nobl9, synthetic monitoring, SLOs, error budgets and burn-rate alerting, improving reliability visibility across critical enterprise services.</li>
+        <li>Delivered the Application Validation Framework on Ansible Automation Platform (SSH, WinRM, YAML-driven orchestration) with automated remediation and health validation for application maintenance and infrastructure changes.</li>
+        <li>Built enterprise AI solutions covering 15,000+ firewall rules, automated risk evaluation across 9 security dimensions, Oracle performance diagnostics with 58 automated health checks, and database migration automation with Oracle Data Pump and AWS DMS.</li>
+        <li>Partnered with Architecture, Security, Platform Engineering, Developer Experience, Quality Engineering, Database and Application teams on cloud modernization and AI adoption supporting 538+ enterprise applications, contributing to ~$12M in annual program-level operational savings.</li>
+      </ul>
+    </article>
+
+    <article class="role">
+      <div class="role-head">
+        <h3>Senior Associate / Developer <span class="org">— Cognizant Technology Services</span></h3>
+        <span class="dates">Apr 2024 – Oct 2025</span>
+      </div>
+      <p class="proj"><strong>Projects:</strong> On-prem to Cloud Migration; RPA Bot to Cloud Migration</p>
+      <ul>
+        <li>Designed Terraform-based infrastructure automation and reusable IaC to provision and manage AWS resources for repeatable, scalable deployments.</li>
+        <li>Led a team of 6 junior engineers with mentorship and technical guidance, and worked with engineering, QA and data teams on secure, scalable AWS solutions.</li>
+        <li>Automated provisioning and configuration of JBoss/WildFly clusters on Oracle Cloud Infrastructure using Terraform and Ansible.</li>
+        <li>Migrated Java applications from OCI to Google Cloud Platform with minimal downtime, and automated GCP resources (Compute Engine, Cloud SQL, VPCs, firewalls) as code.</li>
+        <li>Optimized Jenkins and GitLab CI pipelines for Java deployments across OCI and GCP; configured monitoring and logging with GCP Stackdriver and Dynatrace, including log-alerting dashboards.</li>
+        <li>Migrated Robocorp RPA workflows from on-premises to AWS using EC2, Lambda and S3, and automated infrastructure with Terraform for rapid bot deployment across environments.</li>
+        <li>Built AWS migration infrastructure with Lambda, Fargate, Secrets Manager, EventBridge and GitLab CI integration; applied cost optimization with Reserved Instances and EC2 right-sizing.</li>
+      </ul>
+    </article>
+
+    <article class="role">
+      <div class="role-head">
+        <h3>IT Analyst, Senior DevOps Engineer <span class="org">— Tata Consultancy Services</span></h3>
+        <span class="dates">Jan 2023 – Apr 2024</span>
+      </div>
+      <p class="proj"><strong>Project:</strong> Global IT DevSecOps</p>
+      <ul>
+        <li>Designed multi-cloud architecture on AWS and GCP with Terraform, building repeatable and scalable IaC deployments.</li>
+        <li>Orchestrated containerized applications on Kubernetes, reducing deployment time by 40%.</li>
+        <li>Configured Prometheus and Grafana monitoring and dashboards that improved incident response time by 25%.</li>
+        <li>Built and optimized CI/CD pipelines in CloudBees EE (Jenkins) and GitLab, cutting build and deployment failures by 30%; automated provisioning and deployments with Ansible.</li>
+        <li>Automated vulnerability scanning with SonarQube and implemented GitLab SAST, improving code quality.</li>
+        <li>Tuned Apache Tomcat for a 20% improvement in request handling.</li>
+        <li>Set up disaster recovery strategies and led quarterly drills that met RTO and RPO targets.</li>
+        <li>Led a team of 5 junior engineers; worked with cross-functional teams on cost optimization that reduced cloud costs by 15%.</li>
+      </ul>
+    </article>
+
+    <article class="role">
+      <div class="role-head">
+        <h3>Quality Manager, ML Data Ops Manager – DevOps <span class="org">— Amazon</span></h3>
+        <span class="dates">Feb 2018 – Jan 2023</span>
+      </div>
+      <p class="proj"><strong>Projects:</strong> ML Automation; Pegasus Automation</p>
+      <ul>
+        <li>Engineered CI/CD pipelines with Jenkins, Maven and Git, increasing release velocity by 35%; integrated automated testing, cutting manual test effort by 50%.</li>
+        <li>Ran containerized applications on Kubernetes at 99.9% uptime, with rolling updates and blue-green deployments; led Docker adoption that improved deployment efficiency by 30%.</li>
+        <li>Configured Prometheus and Grafana monitoring, custom alerts and stakeholder KPI dashboards, reducing downtime by 20%.</li>
+        <li>Provisioned AWS with Terraform and designed a multi-AZ architecture with failover and high availability; enforced compliance through IAM policies and roles and routine resource audits.</li>
+        <li>Saved about 20% in operational costs through auto-scaling, Reserved Instances and right-sizing.</li>
+        <li>Administered and tuned Apache Tomcat servers, including SSL certificate management and middleware integration.</li>
+        <li>Embedded DevSecOps practices with development teams; integrated the ELK Stack for centralized logging and real-time analytics.</li>
+        <li>Established code versioning and merging practices that raised team productivity by 15%.</li>
+        <li>Automated repetitive tasks with Ansible and owned backup and recovery plans, including RDS snapshots and S3 object versioning.</li>
+      </ul>
+    </article>
+
+    <article class="role">
+      <div class="role-head">
+        <h3>TRON Analyst &amp; ML Data Specialist <span class="org">— Amazon</span></h3>
+        <span class="dates">Oct 2017 – Feb 2018</span>
+      </div>
+      <ul>
+        <li>Analyzed data to identify automation opportunities, improving process efficiency by 25%, and applied Six Sigma methods to optimize workflows and reduce errors.</li>
+        <li>Provided human supervisory control for automated tasks at a 99% accuracy rate; ran regular audits for data integrity and compliance.</li>
+        <li>Built KPI dashboards in Excel, used SQL for extraction and reporting, and documented procedures with cross-functional teams.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section aria-labelledby="h-proj">
+    <h2 id="h-proj">Selected personal projects</h2>
+    <ul class="projects">
+      <li><strong>JevBrowse</strong> — Open-source Windows browser (C#, .NET 10, WinUI 3, WebView2) with a virtual-tab kernel, isolated workspaces and explainable tracker blocking; ~600 unit tests; public alpha. <a href="https://github.com/reddy5310/jevbrowse">github.com/reddy5310/jevbrowse</a></li>
+      <li><strong>VyayaMitra</strong> — Private, on-device personal-finance PWA (React, TypeScript, Vite, IndexedDB, Tesseract.js OCR) that reads bank and card statements offline and checks they reconcile; AES-GCM encrypted backups. <a href="https://reddy5310.github.io/VyayaMitra">reddy5310.github.io/VyayaMitra</a></li>
+      <li><strong>Antventure: Leaf of Fate</strong> — Installable browser game (TypeScript, Canvas 2D) with a 120 Hz fixed-step simulation, a seeded shared “Daily River” and CI/CD to GitHub Pages. <a href="https://reddy5310.github.io/antventure-final-pwa">reddy5310.github.io/antventure-final-pwa</a></li>
+      <li><strong>Vriddhi</strong> — Co-built investment-research desk for Indian equities (Python, FastAPI-style local cockpit): pre-registered experiment registry, paper portfolios and multi-agent AI review of IPO prospectuses.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="h-skills">
+    <h2 id="h-skills">Skills</h2>
+    <dl class="skills">
+      <div><dt>Cloud</dt><dd>AWS (VPC, EC2, ECS, EKS, Fargate, Lambda, RDS, S3, CloudFront, Route 53, DynamoDB, Aurora PostgreSQL, API Gateway, OpenSearch, EventBridge, SNS, SQS, IAM, KMS, Secrets Manager, CloudTrail, Outposts, Direct Connect); GCP (GKE, Cloud Build, Cloud Run, Compute Engine, Cloud SQL, Vertex AI); Azure (ASE, Monitor); OCI; cloud networking (load balancers, Transit Gateway, virtual networks)</dd></div>
+      <div><dt>Containers &amp; orchestration</dt><dd>Docker, Docker Compose, Kubernetes, Amazon EKS, ECS, GKE, Helm, VMware Tanzu Application Service</dd></div>
+      <div><dt>CI/CD &amp; GitOps</dt><dd>GitHub Actions, GitLab CI, Jenkins, CloudBees, Argo CD, Maven, Git, Bitbucket, Artifactory, JFrog, NPM</dd></div>
+      <div><dt>IaC &amp; configuration</dt><dd>Terraform, AWS CDK, Ansible, Ansible Automation Platform / Tower, HCL, WildFly, HAProxy</dd></div>
+      <div><dt>DevSecOps &amp; governance</dt><dd>Checkov, policy-as-code, SonarQube, Snyk, GitLab SAST, secrets detection, drift validation, identity and access management, Golden Pattern standards, FinOps and cloud cost optimization</dd></div>
+      <div><dt>Observability &amp; SRE</dt><dd>Dynatrace, Prometheus, Grafana, Nobl9, Jaeger, CloudWatch, Azure Monitor, ELK Stack, Splunk; SLIs/SLOs, error budgets, burn-rate alerting, synthetic monitoring, incident management</dd></div>
+      <div><dt>AI engineering</dt><dd>Generative AI, prompt engineering, AWS Bedrock, SageMaker, Vertex AI, GPT, Claude, Gemini; Agentic AI (Strands Agents SDK, Semantic Kernel, Model Context Protocol, GitHub Copilot, FastAPI, human-in-the-loop workflows); RAG (OpenSearch, pgvector, embeddings, AWS Glue)</dd></div>
+      <div><dt>Languages, OS &amp; tools</dt><dd>Python, Shell scripting, YAML, SQL, PostgreSQL, MongoDB, Oracle SQL; Linux (RHEL 8/9, Ubuntu, CentOS), Windows; Robocorp RPA, n8n; Jira, Confluence; Agile delivery</dd></div>
+    </dl>
+  </section>
+
+  <section aria-labelledby="h-cert">
+    <h2 id="h-cert">Certifications</h2>
+    <ul class="certs">
+      <li><span>Google Cloud Certified – Generative AI Leader</span><span class="when">Nov 2026</span></li>
+      <li><span>Microsoft Certified: Azure Administrator Associate</span><span class="when">Feb 2025</span></li>
+      <li><span>Robocorp Automation Developer – Python I, II, III</span><span class="when">Sep 2024</span></li>
+      <li><span>Google Cloud Associate Cloud Engineer</span><span class="when">Jun 2024</span></li>
+      <li><span>AWS Certified DevOps Engineer – Professional</span><span class="when">Sep 2023</span></li>
+      <li><span>AWS Certified Solutions Architect – Professional</span><span class="when">Sep 2023</span></li>
+      <li><span>AWS Certified Developer – Associate</span><span class="when">Feb 2023</span></li>
+      <li><span>Lean Six Sigma Yellow Belt</span><span class="when">Apr 2021</span></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="h-edu">
+    <h2 id="h-edu">Education</h2>
+    <p><strong>B.Tech, Electronics and Communication Engineering</strong> — Lovely Professional University</p>
+  </section>
+</main>
+</body>
+</html>

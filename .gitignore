@@ -1,0 +1,7 @@
+# Source résumé (contains a home address) never ships
+*.docx
+~$*
+
+# Local design-tool memory
+.hallmark/
+.impeccable/
